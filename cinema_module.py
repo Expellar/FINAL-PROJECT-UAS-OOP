@@ -1,4 +1,4 @@
-# cinema.py
+# cinema_module.py
 class Cinema:
     def __init__(self, name):
         self.name = name
@@ -6,7 +6,6 @@ class Cinema:
 
     def add_theater(self, theater):
         self.theaters.append(theater)
-
 
 class Theater:
     def __init__(self, number, seats):
